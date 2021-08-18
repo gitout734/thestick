@@ -4,6 +4,7 @@ namespace Database\Factories;
 
 use App\Models\Post;
 use Illuminate\Database\Eloquent\Factories\Factory;
+use Illuminate\Support\Str;
 
 class PostFactory extends Factory
 {
@@ -22,7 +23,10 @@ class PostFactory extends Factory
     public function definition()
     {
         return [
-            //
+            // setup data to put in database here
+            'title' => $this->faker->text(40),
+            'slug' => Str::of($this->faker->text(10))->slug('-'),
+            'content' => $this->faker->paragraphs(10, true)
         ];
     }
 }
