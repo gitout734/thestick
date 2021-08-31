@@ -14,7 +14,7 @@
         <div class="border-t-8 border-b-8 border-yellow-700 p-32">
             <div class="max-w-4xl mx-auto prose xl:prose-x;">
                 <h1>Welcome to thestick</h1>
-                <h2>Time to lower the boom.</h2>
+                <h2>Time to lower the boom. Bring It.</h2>
                 <p class="mb-20">Read on and carry a Big Stick.</p>
              
 
