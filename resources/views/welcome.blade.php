@@ -11,7 +11,7 @@
 
     </head>
     <body>
-        <div class="border-t-8 border-b-8 border-yellow-700 p-32">
+        <div class="border-t-8 border-b-8 border-yellow-700 p-8">
             <div class="max-w-4xl mx-auto prose xl:prose-x;">
                 <h1>Welcome to thestick</h1>
                 <h2>Time to lower the boom. Bring It.</h2>
