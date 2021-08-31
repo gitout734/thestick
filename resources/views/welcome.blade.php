@@ -20,6 +20,7 @@
 
                 @foreach ($posts as $post )
                     <h2>{{ $post->title }}</h2>
+                    <h4 class="border-l-2 border-b-2 border-yellow-700 rounded-b-md p-4">{{ $post->content}}</h4>
                 @endforeach
             </div>
         </div>
