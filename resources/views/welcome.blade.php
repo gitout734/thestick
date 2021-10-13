@@ -16,7 +16,11 @@
                 <h1>Welcome to thestick</h1>
                 <h2>Time to lower the boom. Bring It.</h2>
                 <p class="mb-20">Read on and carry a Big Stick.</p>
-             
+             <button class="bg-yellow-500">pick up a stick</button>
+             <button>pick up a stick</button>
+             <button>pick up a stick</button>
+             <button>pick up a stick</button>
+             <button>pick up a stick</button>
 
                 @foreach ($posts as $post )
                     <h2>{{ $post->title }}</h2>
