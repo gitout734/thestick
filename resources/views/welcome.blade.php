@@ -23,6 +23,7 @@
              <button>pick up a stick</button>
 
                 @foreach ($posts as $post )
+                console.log("🚀 ~ file: welcome.blade.php ~ line 26 ~ $post", $post)
                     <h2>{{ $post->title }}</h2>
                     <h4 class="border-l-2 border-b-2 border-yellow-700 rounded-b-md p-4">{{ $post->content}}</h4>
                 @endforeach
