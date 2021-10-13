@@ -17,6 +17,9 @@
                 <h2>Time to lower the boom. Bring It.</h2>
                 <p class="mb-20">Read on and carry a Big Stick.</p>
              <button class="bg-yellow-500">pick up a stick</button>
+             <button class="bg-green-500">pick up a stick</button>
+             <button class="bg-blue-500">pick up a stick</button>
+             <button class="bg-red-500">pick up a stick</button>
              <button>pick up a stick</button>
              <button>pick up a stick</button>
              <button>pick up a stick</button>
